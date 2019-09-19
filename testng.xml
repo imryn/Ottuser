@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Register Test">
+  <classes>
+	   <class name="main.CreateJsonFile"> </class>
+	   <class name="sanity.Register"> </class>  
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Login Test">
+   	<classes>
+   		 <class name="main.CreateJsonFile"> </class>
+   		 <class name="sanity.Login"> </class>
+   	</classes>
+  </test>
+  
+  <test name="Update Test">
+   	<classes>
+   		 <class name="main.CreateJsonFile"> </class>
+   		 <class name="sanity.Update"> </class>
+   	</classes>
+  </test>
+  
+</suite> <!-- Suite -->
