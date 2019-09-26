@@ -21,7 +21,7 @@ public class Login extends CreateJsonFile{
 		HttpPost post = new HttpPost(login.getPostApi());
 		String user = loginUser().toString();
 
-		String responseString = login.getResponseFromApi(httpClient, post, user);
+		String responseString = login.getResponseFromApi(httpClient, post, user);	
 
 		Assert.assertEquals(responseString.contains("partnerId: 185"), true);
 		Assert.assertEquals(responseString.contains("password: password"), true);

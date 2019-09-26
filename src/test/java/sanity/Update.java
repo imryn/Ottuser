@@ -21,6 +21,8 @@ public class Update extends CreateJsonFile{
 		String user = updateUser().toString();
 
 		String responseString = update.getResponseFromApi(httpClient, post, user);
+		System.out.println(responseString);
+		
 		Assert.assertEquals(responseString.contains("login"), true);
 	}
 	

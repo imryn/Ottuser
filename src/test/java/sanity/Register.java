@@ -22,8 +22,9 @@ public class Register extends CreateJsonFile{
 		CloseableHttpClient httpClient = HttpClients.createDefault();
 		HttpPost post = new HttpPost(reg.getPostApi());
 		String user = createUser().toString();
-		
+
 		String responseString = reg.getResponseFromApi(httpClient, post, user);
+
 		Assert.assertEquals(responseString.contains("description"), true);
   }
 	

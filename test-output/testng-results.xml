@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1774" started-at="2019-09-19T09:01:45Z" finished-at="2019-09-19T09:01:47Z">
+  <suite name="Default suite" duration-ms="1412" started-at="2019-09-26T10:27:43Z" finished-at="2019-09-26T10:27:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1774" started-at="2019-09-19T09:01:45Z" finished-at="2019-09-19T09:01:47Z">
+    <test name="Default test" duration-ms="1412" started-at="2019-09-26T10:27:43Z" finished-at="2019-09-26T10:27:44Z">
       <class name="sanity.Update">
-        <test-method status="FAIL" signature="updateExistUser()[pri:0, instance:sanity.Update@77caeb3e]" name="updateExistUser" duration-ms="1372" started-at="2019-09-19T09:01:45Z" finished-at="2019-09-19T09:01:47Z">
+        <test-method status="FAIL" signature="updateExistUser()[pri:0, instance:sanity.Update@77caeb3e]" name="updateExistUser" duration-ms="959" started-at="2019-09-26T10:27:43Z" finished-at="2019-09-26T10:27:44Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -20,7 +20,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:568)
 at org.testng.Assert.assertEquals(Assert.java:578)
-at sanity.Update.updateExistUser(Update.java:25)
+at sanity.Update.updateExistUser(Update.java:26)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -52,7 +52,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateExistUser -->
-        <test-method status="PASS" signature="updateNonExistUser()[pri:0, instance:sanity.Update@77caeb3e]" name="updateNonExistUser" duration-ms="379" started-at="2019-09-19T09:01:47Z" finished-at="2019-09-19T09:01:47Z">
+        <test-method status="PASS" signature="updateNonExistUser()[pri:0, instance:sanity.Update@77caeb3e]" name="updateNonExistUser" duration-ms="425" started-at="2019-09-26T10:27:44Z" finished-at="2019-09-26T10:27:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateNonExistUser -->
